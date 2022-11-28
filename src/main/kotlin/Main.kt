@@ -7,7 +7,8 @@ fun main(args: Array<String>) {
     val side2 = readln().toInt()
     println("Введите третью цифру")
     val side3 = readln().toInt()
-    val perimeter = side1 * side2 * side3
-    println(perimeter)
+    val obym = side1 * side2 * side3
+ println("Объём параллелограмма равен")
+    println(obym)
 
 }
